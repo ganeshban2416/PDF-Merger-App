@@ -26,9 +26,6 @@ except Exception:
 
 APP_TITLE = "PDF Merger App "
 
-# -----------------------
-# Utility
-# -----------------------
 def ts():
     return datetime.now().strftime("%H:%M:%S")
 
@@ -488,3 +485,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
